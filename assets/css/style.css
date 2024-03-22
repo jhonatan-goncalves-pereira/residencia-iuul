@@ -126,6 +126,13 @@ header .grid-layout nav .nav-list li a:hover {
     color: var(--cor-secundaria);
 }
 
+.activeBt {
+    background-color:var(--cor-destaque);
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
 .mobile-menu {
     display: none;
 }
