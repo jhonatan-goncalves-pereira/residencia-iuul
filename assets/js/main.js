@@ -12,6 +12,11 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+// No clique do menu móvel
+document.querySelector('.mobile-menu').addEventListener('click', function() {
+    // Adiciona ou remove a classe .active do elemento .nav-list
+    document.querySelector('.nav-list').classList.toggle('active');
+});
 
 
 
