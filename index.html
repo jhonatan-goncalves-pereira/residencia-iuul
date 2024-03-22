@@ -6,23 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portifólio</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
         <div class="grid-layout">
             <nav>
-                <img src="assets/image/jhonatan_goncalves_pereira.png" alt="Jhonatan Gonçalves" height="25px" />
+                <img src="assets/image/jhonatan_goncalves_pereira.png" alt="Jhonatan Gonçalves" />
                 <div class="mobile-menu">
                     <div class="line1"></div>
                     <div class="line2"></div>
                     <div class="line3"></div>
                 </div>
                 <ul class="nav-list">
-                    <li><a href="https://www.linkedin.com/in/jhonatan-goncalves-pereira/" rel="noopener"
-                            target="_blank">LinkedIn</a></li>
+                    <li><a href="#s-home" rel="noopener"
+                            target="_blank">Home</a></li>
                     <li><a href="https://github.com/jhonatan-goncalves-pereira" rel="noopener"
                             target="_blank">GitHub</a></li>
                     <li><a href="https://cursos.alura.com.br/user/jhonatan-goncalves-pereira" rel="noopener"
@@ -37,6 +42,9 @@
             <div class="grid-layout">
                 <div id="home">
                     <div id="home-container-text">
+                        <img src="assets/image/jhonatan_goncalves_pereira.png" alt="ìcone Jhonatan Gonçalves Pereira"
+                            id="logo" height="150px" />
+
                         <h1 class="delayMediumReveal">
                             Developer FullStack Júnior, na produção de
                             <span>produtos digitais</span> de forma moderna e de alta
@@ -47,14 +55,11 @@
                             profissional que vão destacar seu produto no mercado.
                         </p>
 
-                        <a href="https://www.linkedin.com/in/jhonatan-goncalves-pereira/" rel="noopener" target="_blank"
-                            class="delayExtraBigReveal">
+                        <a href="#s-about" rel="noopener" class="delayExtraBigReveal">
                             Avance seu Projeto comigo!
                         </a>
                     </div>
 
-                    <img src="assets/image/jhonatan_goncalves_pereira.png" alt="ìcone Jhonatan Gonçalves Pereira"
-                        onload="SVGInject(this)" id="logo" height="500px" />
                 </div>
             </div>
         </section>
@@ -66,8 +71,8 @@
                         <h3 class="delayExtraBigReveal">Developer FULL</h3>
                     </div>
                     <div>
-                        <h4 class="delayMediumReveal">Quem eu sou?</h4>
-                        <h2 class="delaySmallReveal">Jhonatan Gonçalves Pereira</h2>
+                        <h2 class="delayMediumReveal">Quem eu sou?</h2>
+                        <h4 class="delaySmallReveal">Jhonatan Gonçalves Pereira</h4>
                         <h3 class="delayMediumReveal">
                             FullStack Developer & UI Designer
                         </h3>
@@ -84,22 +89,20 @@
                             <ul>
                                 <a href="https://www.instagram.com/john_n_tahn/" rel="noopener" target="_blank">
                                     <li>
-                                        <img src="./assets/icons/instagram.png" alt="Ícone do Instagram"
-                                            onload="SVGInject(this)" />
+                                        <img src="./assets/icons/instagram.png" alt="Ícone do Instagram" />
                                     </li>
                                 </a>
 
-                                <a href="https://www.linkedin.com/in/jhonatan-goncalves-pereira/" rel="noopener" target="_blank">
+                                <a href="https://www.linkedin.com/in/jhonatan-goncalves-pereira/" rel="noopener"
+                                    target="_blank">
                                     <li>
-                                        <img src="./assets/icons/linkedin.png" rel="noopener" alt="Ícone do LinkedIn"
-                                            onload="SVGInject(this)" />
+                                        <img src="./assets/icons/linkedin.png" rel="noopener" alt="Ícone do LinkedIn" />
                                     </li>
                                 </a>
 
                                 <a href="https://github.com/jhonatan-goncalves-pereira" rel="noopener" target="_blank">
                                     <li>
-                                        <img src="./assets/icons/github.png" alt="Ícone do GitHub"
-                                            onload="SVGInject(this)" />
+                                        <img src="./assets/icons/github.png" alt="Ícone do GitHub" />
                                     </li>
                                 </a>
                             </ul>
@@ -138,18 +141,18 @@
                         <p class="changeExperience">
                             Atuando como analista de TI em infraestrutura e FullStack na URCA
                             , o trabalho consite em organização de tecnologia, combinando habilidades
-                             tanto na área de infraestrutura de TI quanto no desenvolvimento de software.
-                             Infraestrutura de TI:
+                            tanto na área de infraestrutura de TI quanto no desenvolvimento de software.
+                            Infraestrutura de TI:
 
-                             Sistemas Operacionais: Linux, Windows;
-                             Virtualização e Cloud Computing: AWS;
-                             Redes: TCP/IP, VLANs, VPNs, Firewalls, Switches, Roteadores.
+                            Sistemas Operacionais: Linux, Windows;
+                            Virtualização e Cloud Computing: AWS;
+                            Redes: TCP/IP, VLANs, VPNs, Firewalls, Switches, Roteadores.
 
-                             Desenvolvimento FullStack:
-                             Frontend: HTML, CSS, JavaScript, TypeScript;
-                             Frameworks e Bibliotecas Frontend: HTML, CSS, JS, Bootstrap;
-                             Bancos de Dados: MySQL, SQLite;
-                             Controle de Versão e Colaboração: Git, GitHub;
+                            Desenvolvimento FullStack:
+                            Frontend: HTML, CSS, JavaScript, TypeScript;
+                            Frameworks e Bibliotecas Frontend: HTML, CSS, JS, Bootstrap;
+                            Bancos de Dados: MySQL, SQLite;
+                            Controle de Versão e Colaboração: Git, GitHub;
                         </p>
                     </div>
                 </div>
@@ -163,22 +166,25 @@
                     <article class="intervalCardReveal">
                         <h3>OneDecodigador</h3>
                         <p>
-                            Site de desafio para aplicação de conhecimentos em WEB. Princípio de UI e UX com a funcionalidade 
+                            Site de desafio para aplicação de conhecimentos em WEB. Princípio de UI e UX com a
+                            funcionalidade
                             de codificação e decodificação de textos.
                         </p>
 
-                        <a href="https://jhonatan-goncalves-pereira.github.io/Challenge-ONE-Decodificador/" rel="noopener" target="_blank"
-                            >Visualizar projeto
+                        <a href="https://jhonatan-goncalves-pereira.github.io/Challenge-ONE-Decodificador/"
+                            rel="noopener" target="_blank">Visualizar projeto
                         </a>
                     </article>
 
                     <article class="intervalCardReveal">
                         <h3>Jogo do Número Secreto</h3>
                         <p>
-                            Joguinho de advinhação usando aleatoriedade em intervalo pré-definidos com o usuário para advinhar um número.
+                            Joguinho de advinhação usando aleatoriedade em intervalo pré-definidos com o usuário para
+                            advinhar um número.
                         </p>
 
-                        <a href="https://github.com/jhonatan-goncalves-pereira/jogo-do-numero-secreto" rel="noopener" target="_blank">Visualizar
+                        <a href="https://github.com/jhonatan-goncalves-pereira/jogo-do-numero-secreto" rel="noopener"
+                            target="_blank">Visualizar
                             projeto
                         </a>
                     </article>
@@ -188,7 +194,8 @@
                         <p>
                             Formulário direcionador de e-mails.
                         </p>
-                        <a href="https://github.com/jhonatan-goncalves-pereira/consumindo-api-gmail-node" rel="noopener" target="_blank" id="efront">Visualizar
+                        <a href="https://github.com/jhonatan-goncalves-pereira/consumindo-api-gmail-node" rel="noopener"
+                            target="_blank" id="efront">Visualizar
                             projeto
                         </a>
                     </article>
@@ -196,7 +203,7 @@
                     <article class="intervalCardReveal steam">
                         <h3>Clone da Interface do Twiter</h3>
                         <p>Aplicação desenvolvendo conceitos de UI e UX de Desenvolvimento WEB.</p>
-                        <a href="https://efront-steam.vercel.app/" rel="noopener" target="_blank" id="steam">Visualizar
+                        <a href="https://jhonatan-goncalves-pereira.github.io/kenzie-maratona-twitter/" rel="noopener" target="_blank" id="steam">Visualizar
                             projeto
                         </a>
                     </article>
@@ -207,7 +214,7 @@
                             Logo, logo tem mais.
                         </p>
                     </article>
-=
+                    =
                 </div>
                 <a href="https://github.com/jhonatan-goncalves-pereira" rel="noopener" target="_blank"
                     class="delayExtraBigReveal">Repositórios no GitHub</a>
@@ -218,13 +225,13 @@
             <div class="grid-layout">
                 <h2 class="delaySmallReveal">Serviços <span>.</span></h2>
                 <div id="services">
-                    
+
                     <article class="intervalCardReveal">
                         <div>
-                            <img src="assets/icons/icon-app-design.svg" width="100px" height="100px"
-                                alt="ícone imagem" />
+                            <img src="assets/icons/fullstack.png" width="100px" height="100px"
+                                alt="ícone FullStack" />
                         </div>
-                        <h3>Supoorte de TI</h3>
+                        <h3>FullStack Developerr</h3>
                         <p>
                             Crio interações que transmitem sensação de modernidade, além de
                             chamarem a atenção do usuário.
@@ -233,9 +240,9 @@
 
                     <article class="intervalCardReveal">
                         <div>
-                            <img src="assets/icons/icon-design.svg" width="100px" height="100px" alt="ícone layers" />
+                            <img src="assets/icons/uiux.png" width="100px" height="100px" alt="ícone UieUx" />
                         </div>
-                        <h3>UI Design</h3>
+                        <h3>UI and UX Design</h3>
                         <p>
                             Desenho interface de forma que ela seja clara, objetiva e
                             principalmente intuitiva para o usuário.
@@ -244,12 +251,11 @@
 
                     <article class="intervalCardReveal">
                         <div>
-                            <img src="assets/icons/icon-front.svg" width="100px" height="100px" alt="ícone código" />
+                            <img src="assets/icons/suporte.png" width="100px" height="100px" alt="ícone suporte" />
                         </div>
-                        <h3>Desenvolvimento FullStack</h3>
+                        <h3>Suporte de Hardware</h3>
                         <p>
-                            Desenvolvo sites profissionais, blogs, portfólios, landing pages
-                            e e-commerce.
+                            Soluções Tecnológicas para Desafios Contínuos: Nosso Suporte, Sua Tranquilidade!
                         </p>
                     </article>
 
@@ -275,8 +281,7 @@
                             <img src="assets/icons/css-3.png" width="60px" height="60px" alt="ícone do css" />
                         </article>
                         <article class="js intervalCardReveal">
-                            <img src="assets/icons/js.png" width="60px" height="60px"
-                                alt="ícone do javascript" />
+                            <img src="assets/icons/js.png" width="60px" height="60px" alt="ícone do javascript" />
                         </article>
                         <article class="bootstrap intervalCardReveal">
                             <img src="assets/icons/bootstrap.png" width="60px" height="60px" alt="ícone do Bootstrap" />
@@ -292,8 +297,7 @@
                                 alt="ícone do virtualBox" />
                         </article>
                         <article class="wireShark intervalCardReveal">
-                            <img src="assets/icons/wireshark.png" width="60px" height="60px"
-                                alt="ícone do WireShark" />
+                            <img src="assets/icons/wireshark.png" width="60px" height="60px" alt="ícone do WireShark" />
                         </article>
 
                         <article class="reac intervalCardReveal">
@@ -301,8 +305,7 @@
                         </article>
 
                         <article class="angular intervalCardReveal">
-                            <img src="assets/icons/angular.png" width="60px" height="60px"
-                                alt="ícone do angular" />
+                            <img src="assets/icons/angular.png" width="60px" height="60px" alt="ícone do angular" />
                         </article>
 
                     </div>
@@ -322,14 +325,13 @@
 
                 <div>
                     <p>Powered by</p>
-                    <img src="./assets/image/jhonatan_goncalves_pereira.png" height="49px" alt="Logo Jhonatan Gonçalves" />
+                    <img src="./assets/image/jhonatan_goncalves_pereira.png" height="49px"
+                        alt="Logo Jhonatan Gonçalves" />
                 </div>
             </div>
         </footer>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
