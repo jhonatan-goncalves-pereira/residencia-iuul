@@ -471,7 +471,7 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 #s-experience .card{
-    fpadding: 32px;
+    padding: 32px;
     margin: 8px auto;
     background-color: #111;
     height: auto;
@@ -491,88 +491,22 @@ header .grid-layout nav .nav-list li a:hover {
     }
 }
 
-#s-experience .grid-layout h2 {
+#s-experience  h2 {
     padding-bottom: 24px;
     font-size: 4rem;
     font-weight: 500;
     text-align: center;
 }
 
-#s-experience .grid-layout h2 span {
+#s-experience  h2 span {
     color: var(--cor-destaque);
 }
 
-#s-experience .grid-layout #experience {
+#s-experience  #experience {
     margin-top: 32px;
     display: flex;
     gap: 40px;
     align-items: center;
-}
-
-#s-experience .grid-layout #experience .option-experience {
-    display: flex;
-    width: 25%;
-    flex-direction: column;
-}
-
-#s-experience .grid-layout #experience .option-experience .activeExperience {
-    border-left: 4px solid var(--cor-destaque);
-    color: var(--cor-destaque);
-    font-weight: 600;
-}
-
-#s-experience .grid-layout #experience .option-experience>div {
-    padding: 24px 32px;
-    text-align: left;
-    background-color: #111;
-    border-left: 4px solid #111;
-    transition: background-color 0.3s ease;
-}
-
-#s-experience .grid-layout #experience .option-experience>div:hover {
-    cursor: pointer;
-    background-color: #222; /* Mudança de cor ao passar o mouse */
-}
-
-#s-experience .grid-layout #experience .option-experience>div h3 {
-    font-size: 1.8rem;
-    font-weight: 400;
-}
-
-#s-experience .grid-layout #experience .text-experience {
-    width: 100%;
-}
-
-#s-experience .grid-layout #experience .text-experience>div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 32px;
-}
-
-#s-experience .grid-layout #experience .text-experience>div h4 {
-    font-size: 2.4rem;
-    font-weight: 400;
-}
-
-#s-experience .grid-layout #experience .text-experience>div p {
-    font-size: 1.8rem;
-    color: #9ca3af;
-}
-
-#s-experience .grid-layout #experience .text-experience h5 {
-    font-size: 2rem;
-    margin: 32px 0px;
-    font-weight: 500;
-    color: var(--cor-destaque);
-}
-
-#s-experience .grid-layout #experience .text-experience p {
-    font-size: 2rem;
-    line-height: 160%;
-    color: #9ca3af;
-    font-weight: 400;
 }
 
 /*Section COntato*/
