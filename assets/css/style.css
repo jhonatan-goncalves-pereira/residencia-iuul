@@ -131,6 +131,7 @@ header .grid-layout nav .nav-list li a:hover {
     padding: 5px;
     border-radius: 5px;
     box-sizing: border-box;
+    transition: background .6s;
 }
 
 .mobile-menu {
@@ -558,7 +559,42 @@ header .grid-layout nav .nav-list li a:hover {
     font-weight: 400;
 }
 
+/*Section COntato*/
 
+#s-contato{
+    padding: 32px;
+    margin: 8px auto;
+    background-color: #111;
+    height: auto;
+    flex-basis: calc(33% - 20px);
+    flex-grow: 1;
+    border: 1px solid #111;
+    transition: 1s all ease;
+    border: 1px solid #1f1f1f;
+    border-radius: 4px;
+    color: var(--cor-secundaria);
+    font-size: 1.8rem;
+}
+#s-contato input, #s-contato textarea{
+    background-color: #111;
+    height: auto;
+    flex-basis: calc(33% - 20px);
+    flex-grow: 1;
+    border: 1px solid #111;
+    transition: 1s all ease;
+    border: 1px solid #1f1f1f;
+    border-radius: 4px;
+    font-size: 1.5em;
+}
+
+#s-contato h2{
+    font-size: 1.7em;
+    font-weight: 500;
+}
+#s-contato  button{
+    width: 100%;
+    font-size: 1.8em;
+}
 
 
 

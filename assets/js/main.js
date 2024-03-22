@@ -3,13 +3,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     links.forEach(function(link) {
         link.addEventListener('click', function(event) {
-            // Remove a classe 'active' de todos os links
             links.forEach(function(link) {
                 link.parentElement.classList.remove('activeBt');
             });
 
-            // Adiciona a classe 'active' ao link clicado
             this.parentElement.classList.add('activeBt');
         });
     });
 });
+
+
