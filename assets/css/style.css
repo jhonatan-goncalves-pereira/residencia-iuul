@@ -467,7 +467,23 @@ header .grid-layout nav .nav-list li a:hover {
     background-color: #151515;
     color: var(--cor-secundaria);
     padding: 96px 48px;
+    font-size: 2.4em;
 }
+
+#s-experience .card{
+    fpadding: 32px;
+    margin: 8px auto;
+    background-color: #111;
+    height: auto;
+    flex-basis: calc(33% - 20px);
+    flex-grow: 1;
+    border: 1px solid #111;
+    transition: 1s all ease;
+    border: 1px solid #1f1f1f;
+    border-radius: 4px;
+    color: var(--cor-secundaria);
+}
+
 
 @media screen and (max-width: 992px) {
     #s-experience {
