@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -337,7 +337,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <h2 class="mb-4 text-center">Entre em Contato</h2>
-                        <form>
+                        <form id="contactForm">
                             <div class="form-group">
                                 <label for="name">Nome</label>
                                 <input type="text" required class="form-control" id="name" placeholder="Seu nome">
@@ -351,7 +351,16 @@
                                 <textarea class="form-control" required id="message" rows="5"
                                     placeholder="Sua mensagem"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <div class="row">
+                                <div class="col-md-6">
+                                   <!-- <button type="button" id="clearMessages">Limpar Mensagens</button>-->
+
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="submit" id="btnEmail" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </div>
+                        
                         </form>
                     </div>
                 </div>
@@ -390,6 +399,7 @@
     </main>
 
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/contato.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

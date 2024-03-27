@@ -60,3 +60,20 @@ cards.forEach(card => {
 
 
 
+
+
+// Função para carregar o conteúdo de um arquivo HTML e adicioná-lo a um elemento na página
+function includeHTML(filePath, placeholderId) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById(placeholderId).innerHTML = this.responseText;
+        }
+    };
+    xhttp.open("GET", filePath, true);
+    xhttp.send();
+}
+
+
+
+
