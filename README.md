@@ -8,6 +8,23 @@ Este repositório contém o código-fonte do meu portfólio, desenvolvido como p
 
 A iUUL é uma empresa inovadora que busca revolucionar o mercado por meio da ponte estabelecida entre o mercado de trabalho e a qualificação profissional. Para saber mais sobre a iUUL, visite o [site oficial da iUUL](https://www.iuul.com.br).
 
+### Sobre o Desafio 1
+Funcionalidades
+1. Menu: o portfólio deve conter um menu com links para as principais páginas.
+a. O menu deve ser exibido em todas as páginas.
+b. O item de menu correspondente à página que o usuário está deve ser destacado.
+2. Rodapé: o rodapé deve conter links para suas redes sociais (linkedin, twitter, etc)
+a. O rodapé deve ser exibido em todas as páginas.
+b. Os links para as redes sociais devem ser abertos em uma nova aba do navegador.
+3. Página principal: o conteúdo deve ser elaborado pelo aluno. Sugestão de conteúdo:
+apresentar-se.
+4. Formação: página que apresenta sua formação acadêmica e complementar.
+5. Atuação profissional: página que descreve sua atuação profissional.
+6. Contato: página com informações de contato
+    a. Contatos pessoais
+    b. Links para redes sociais (mesmo já estando no rodapé)
+    c. Incluir formulário de contato por e-mail (Observação: o formulário não enviará e-mail, poisdepende de back-end).
+
 ### Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
