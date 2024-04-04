@@ -29,8 +29,7 @@ img {
 }
 
 body {
-    background-color: var(--cor-secundaria);
-    overflow-x: hidden;
+    overflow-x: hidden;  
 }
 
 html {
