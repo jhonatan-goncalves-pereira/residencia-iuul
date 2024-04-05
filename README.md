@@ -1,5 +1,3 @@
-﻿Claro, aqui está a adaptação do modelo fornecido para o Desafio 2:
-
 ## Residência iUUL - Desafio 2: Portfólio com Armazenamento de Mensagens
 
 ![image](https://github.com/jhonatan-goncalves-pereira/residencia-iuul/assets/94761781/669ac904-b1d2-42e7-990b-ca53be728ded)
