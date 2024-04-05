@@ -2,7 +2,8 @@
 
 ## Residência iUUL - Desafio 2: Portfólio com Armazenamento de Mensagens
 
-![Portfólio](https://github.com/jhonatan-goncalves-pereira/residencia-iUUL-desafio2-portifolio/assets/94761781/82005607-9ff4-4dda-9535-15969517d440)
+![image](https://github.com/jhonatan-goncalves-pereira/residencia-iuul/assets/94761781/669ac904-b1d2-42e7-990b-ca53be728ded)
+
 
 ### Sobre o Desafio 2
 
@@ -33,11 +34,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **Menu Responsivo**: O menu do site é responsivo e pode ser acessado facilmente em dispositivos móveis, proporcionando uma experiência de usuário consistente em todas as plataformas.
 - **Destaque de Links**: Ao clicar em um link no menu de navegação, o link selecionado é destacado visualmente para indicar a seção atual.
 
-**Deploy**
-
-![Portfólio](https://github.com/jhonatan-goncalves-pereira/residencia-iUUL-desafio2-portifolio/assets/94761781/9d0bed08-2b50-45f8-a97f-f4af5c6a00ee)
-
-O portfólio está hospedado no GitHub Pages e pode ser acessado através deste [link](https://jhonatan-goncalves-pereira.github.io/residencia-iUUL-desafio2-portifolio/).
 
 ### Como Contribuir
 
