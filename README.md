@@ -27,11 +27,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **JavaScript**: Utilizado para adicionar interatividade ao site, como navegação suave e menu responsivo.
 
 **Funcionalidades Principais**
-
 - **Navegação Suave**: O site utiliza JavaScript para proporcionar uma experiência de navegação suave, com transições suaves entre seções.
 - **Menu Responsivo**: O menu do site é responsivo e pode ser acessado facilmente em dispositivos móveis, proporcionando uma experiência de usuário consistente em todas as plataformas.
 - **Destaque de Links**: Ao clicar em um link no menu de navegação, o link selecionado é destacado visualmente para indicar a seção atual.
-
+- **Envio e Armazenamento de mensagens**: pelo formulário de contato é possível enviar e consultar mensagens "enviadas" do LocalStorage
 
 ### Como Contribuir
 
