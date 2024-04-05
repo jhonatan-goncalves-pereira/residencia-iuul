@@ -22,14 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-document.getElementById("btnLimparMsn").addEventListener("click", function(){
-    displayPopup("Mensagens excluídas com sucesso!");
-});
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
     const messages = JSON.parse(localStorage.getItem("messages")) || [];
     const messagesList = document.getElementById("messagesList");
@@ -66,12 +58,18 @@ document.addEventListener("DOMContentLoaded", function() {
 document.getElementById("btnLimparMsn").addEventListener("click", function(){
     localStorage.removeItem("messages");
     displayPopup("Excluídas com sucesso!");
+    const delayTime = 2000; // 2 segundos
+        setTimeout(function() {
+            window.location.reload(); // Recarrega a página após o atraso
+        }, delayTime);
+    
 });
 
 
 function displayPopup(message) {
     document.getElementById("popupText").innerText = message;
     $('#popupMessage').modal('show');
+    
 }
 
 document.addEventListener("DOMContentLoaded", function() {
