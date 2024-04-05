@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("contactForm");
     form.addEventListener("submit", function(event) {
@@ -18,11 +17,17 @@ document.addEventListener("DOMContentLoaded", function() {
         localStorage.setItem("messages", JSON.stringify(messages));
 
         form.reset();
-        alert("mensagens enviadas");
+        displayPopup("Mensagens enviadas com sucesso!");
     });
-
-
 });
+
+
+document.getElementById("btnLimparMsn").addEventListener("click", function(){
+    displayPopup("Mensagens excluídas com sucesso!");
+});
+
+
+
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -60,10 +65,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.getElementById("btnLimparMsn").addEventListener("click", function(){
     localStorage.removeItem("messages");
-    alert("Todas as mensagens foram removidas.");
-    window.location.reload();
+    displayPopup("Excluídas com sucesso!");
 });
 
+
+function displayPopup(message) {
+    document.getElementById("popupText").innerText = message;
+    $('#popupMessage').modal('show');
+}
 
 document.addEventListener("DOMContentLoaded", function() {
     function updateMessageList() {

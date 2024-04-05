@@ -3,11 +3,7 @@
     --cor-secundaria: #fff;
     --fonte-principal: "Archivo";
 }
-.text-black {
-    color: black;
-}
-
-
+.text-black{color: #151515;}
 * {
     padding: 0;
     margin: 0;
@@ -582,8 +578,8 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-contato form{
     border: 1px solid #1f1f1f;
-    padding: 20px;
-
+    padding: 100px;
+    box-sizing: border-box;
 }
 
 
@@ -995,6 +991,10 @@ footer div {
     display: flex;
     align-items: center;
     gap: 16px
+}
+
+#popupMessage{
+    font-size: 1.4em;
 }
 
 @media screen and (max-width: 1200px) {

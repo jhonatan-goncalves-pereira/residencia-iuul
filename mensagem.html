@@ -23,15 +23,41 @@
     <div class="container " >
         <h1 class="mt-4 display-2">Listagem de Mensagens Recebidas</h1>
         <div id="messagesList" class="mt-4 display-3" style="color:#000"></div>
+        <div class="row">
+            
+        <div class="col-md-6">
+            <a href="index.html#s-contato" class="btn btn btn-primary btn-lg">Voltar</a>
+        </div>
+        <div class="col-md-6 text-right">
+            <a class="btn-lg btn btn-danger " id="btnLimparMsn">LIMPAR MENSAGENS</a>
+        </div>
+        </div>
         
-        
-        <a href="index.html#s-contato" class="btn btn btn-primary btn-lg">Voltar</a>
-        <a class="btn-lg btn btn-danger " id="btnLimparMsn">LIMPAR MENSAGENS</a>
-    
     </div>
+
+    <div id="popupMessage" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg displa" role="document"> <!-- Adicionando a classe modal-lg para tornar a janela modal maior -->
+            <div class="modal-content bg-dark text-light"> <!-- Adicionando as classes bg-dark e text-light -->
+                <div class="modal-header">
+                    <h2 class="modal-title text-light" id="mensagensModalLabel">Atenção</h2>
+                    <button type="button" class="close text-light" data-dismiss="modal" aria-label="Fechar"> <!-- Adicionando a classe text-light -->
+                        <span aria-hidden="true" class="text-light">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="popupText"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
     
     <script src="assets/js/contato.js"></script>
+    <script src="assets/js/contato.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
 
