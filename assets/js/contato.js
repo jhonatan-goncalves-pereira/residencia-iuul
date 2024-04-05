@@ -79,15 +79,15 @@ document.addEventListener("DOMContentLoaded", function() {
             cardBody.classList.add("card-body");
 
             const cardTitle = document.createElement("h5");
-            cardTitle.classList.add("card-title");
+            cardTitle.classList.add("card-title","text-black");
             cardTitle.textContent = message.name;
 
             const cardSubtitle = document.createElement("h6");
-            cardSubtitle.classList.add("card-subtitle", "mb-2", "text-muted");
+            cardSubtitle.classList.add("card-subtitle", "mb-2", "text-muted","text-black");
             cardSubtitle.textContent = message.email;
 
             const cardText = document.createElement("p");
-            cardText.classList.add("card-text");
+            cardText.classList.add("card-text","text-black");
             cardText.textContent = message.message;
 
             cardBody.appendChild(cardTitle);
