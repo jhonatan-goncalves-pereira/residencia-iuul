@@ -4,8 +4,6 @@ Este repositório contém o código-fonte do meu portfólio, desenvolvido como p
 
 ### Sobre a Empresa iUUL
 
-![image](https://github.com/jhonatan-goncalves-pereira/residencia-iUUL-desafio1-portifolio/assets/94761781/82005607-9ff4-4dda-9535-15969517d440)
-
 A iUUL é uma empresa inovadora que busca revolucionar o mercado por meio da ponte estabelecida entre o mercado de trabalho e a qualificação profissional. Para saber mais sobre a iUUL, visite o [site oficial da iUUL](https://www.iuul.com.br).
 
 ### Sobre o Desafio 1
@@ -48,9 +46,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ### Deploy
 
-![image](https://github.com/jhonatan-goncalves-pereira/residencia-iUUL-desafio1-portifolio/assets/94761781/9d0bed08-2b50-45f8-a97f-f4af5c6a00ee)
-
-O portfólio está hospedado no GitHub Pages e pode ser acessado através deste [link](https://jhonatan-goncalves-pereira.github.io/residencia-iUUL-desafio1-portifolio/).
+O portfólio está hospedado no GitHub Pages e pode ser acessado através deste [link](https://jhonatan-goncalves-pereira.github.io/residencia-iuul/).
 
 ### Como Contribuir
 
